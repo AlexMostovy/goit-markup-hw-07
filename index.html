@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="header-nav">
+          <div class="header-nav-box">
+            <a class="header-nav-link text-raleway" href="./index.html"
+              >WEB<span class="logo-header">STUDIO</span></a
+            >
+            <ul class="header-nav-list list">
+              <li class="header-nav-item">
+                <a
+                  class="header-nav-links current text-roboto"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-links text-roboto" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-links text-roboto" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <address class="header-address">
+          <ul class="header-address-list list">
+            <li class="header-address-contact link">
+              <a
+                href="mailto:info@devstudio.com"
+                class="header-address-letterr text-roboto address-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-address-contact link">
+              <a
+                href="tel:+110001111111"
+                class="header-address-letterr text-roboto address-phone"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-text text-roboto">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="hero-button text-roboto" data-modal-open>
+            Order Service
+          </button>
+        </div>
+      </section>
+
+      <section class="scrolls">
+        <div class="container">
+          <h2 class="hidden-filt visually-hidden" hidden>Hidden</h2>
+          <ul class="scrolls-list list">
+            <li class="scrolls-item">
+              <div class="scrolls-item-box">
+                <svg class="scrolls-icon" width="64" height="64">
+                  <use href="./images/symbol-defs.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="scrolls-subtitle text-roboto">Strategy</h3>
+              <p class="scrolls-text text-roboto">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+
+            <li class="scrolls-item">
+              <div class="scrolls-item-box">
+                <svg class="scrolls-icon" width="64" height="64">
+                  <use href="./images/symbol-defs.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="scrolls-subtitle text-roboto">Punctuality</h3>
+              <p class="scrolls-text text-roboto">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+
+            <li class="scrolls-item">
+              <div class="scrolls-item-box">
+                <svg class="scrolls-icon" width="64" height="64">
+                  <use href="./images/symbol-defs.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="scrolls-subtitle text-roboto">Diligence</h3>
+              <p class="scrolls-text text-roboto">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+
+            <li class="scrolls-item">
+              <div class="scrolls-item-box">
+                <svg class="scrolls-icon" width="64" height="64">
+                  <use href="./images/symbol-defs.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="scrolls-subtitle text-roboto">Technologies</h3>
+              <p class="scrolls-text text-roboto">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="picture-icon-job">
+        <div class="container">
+          <h2 class="picture-icon-subtitle text-roboto">What Are We Doing</h2>
+          <ul class="picture-icon-list list">
+            <li class="picture-icon-item">
+              <img src="./images/mac.jpg" alt="mac" width="360" />
+            </li>
+            <li class="picture-icon-item">
+              <img src="./images/phone.jpg" alt="phone" width="360" />
+            </li>
+            <li class="picture-icon-item">
+              <img src="./images/photo.jpg" alt="photo" width="360" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="sec-team">
+        <div class="container">
+          <h2 class="sec-team-subtitle text-roboto">Our Team</h2>
+          <ul class="sec-team-list list">
+            <li class="sec-team-item">
+              <img src="./images/mark.jpg" alt="mark" width="264" />
+              <div class="sec-item-band">
+                <h3 class="sec-team-item-subtitle text-roboto">
+                  Mark Guerrero
+                </h3>
+                <p class="sec-team-item-text text-roboto">Product Designer</p>
+                <ul class="team-soc-list list">
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sec-team-item">
+              <img src="./images/tom.jpg" alt="tom" width="264" />
+              <div class="sec-item-band">
+                <h3 class="sec-team-item-subtitle text-roboto">Tom Ford</h3>
+                <p class="sec-team-item-text text-roboto">Frontend Developer</p>
+                <ul class="team-soc-list list">
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sec-team-item">
+              <img src="./images/camila.jpg" alt="camila" width="264" />
+              <div class="sec-item-band">
+                <h3 class="sec-team-item-subtitle text-roboto">
+                  Camila Garcia
+                </h3>
+                <p class="sec-team-item-text text-roboto">Marketing</p>
+                <ul class="team-soc-list list">
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="sec-team-item">
+              <img src="./images/daniel.jpg" alt="daniel" width="264" />
+              <div class="sec-item-band">
+                <h3 class="sec-team-item-subtitle text-roboto">
+                  Daniel Wilson
+                </h3>
+                <p class="sec-team-item-text text-roboto">UI Designer</p>
+                <ul class="team-soc-list list">
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-twitter-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-facebook-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-soc-item">
+                    <a class="team-soc-link link" href="">
+                      <svg class="team-soc-icon" width="16" height="16">
+                        <use
+                          href="./images/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="custom-logo">
+        <div class="container">
+          <h2 class="custom-text text-roboto">Customers</h2>
+          <ul class="custom-sec-list list">
+            <li class="custom-sec-item">
+              <a href="" class="custom-sec-link link">
+                <svg class="custom-sec-icon" width="41" height="47">
+                  <use href="./images/symbol-defs.svg#icon-group"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="custom-sec-item">
+              <a href="" class="custom-sec-link link">
+                <svg class="custom-sec-icon" width="40" height="52">
+                  <use href="./images/symbol-defs.svg#icon-group-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="custom-sec-item">
+              <a href="" class="custom-sec-link">
+                <svg class="custom-sec-icon" width="44" height="41">
+                  <use href="./images/symbol-defs.svg#icon-group-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="custom-sec-item">
+              <a href="" class="custom-sec-link link">
+                <svg class="custom-sec-icon" width="84" height="41">
+                  <use href="./images/symbol-defs.svg#icon-group-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="custom-sec-item">
+              <a href="" class="custom-sec-link link">
+                <svg class="custom-sec-icon" width="63" height="45">
+                  <use href="./images/symbol-defs.svg#icon-group-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="custom-sec-item">
+              <a href="" class="custom-sec-link link">
+                <svg class="custom-sec-icon" width="94" height="44">
+                  <use href="./images/symbol-defs.svg#icon-group-5"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-two-footer">
+      <div class="container footer-cont">
+        <div class="footer-logo">
+          <a href="./index.html" class="page-two-logo text-raleway"
+            >WEB<span class="logo-foote">STUDIO</span></a
+          >
+          <p class="page-two-text text-roboto">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="social-footer">
+          <p class="text-footer-icon text-roboto">Social media</p>
+          <ul class="footer-list-icon list">
+            <li class="footer-item-icon">
+              <a class="footer-link-icon link" href="">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-icon">
+              <a class="footer-link-icon link" href="">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-icon">
+              <a class="footer-link-icon link" href="">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-item-icon">
+              <a class="footer-link-icon link" href="">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-form">
+          <p class="footer-form-txt text-roboto">Subscribe</p>
+          <form class="fotr-form">
+            <input
+              type="email"
+              name="E-mail"
+              class="ftr-form-inp"
+              placeholder="E-mail"
+            />
+
+            <button type="submit" class="footer-form-btn">
+              Subscribe
+              <svg class="footer-icon-button" width="24" height="24">
+                <use href="./images/symbol-defs.svg#icon-Frame-3"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-icon" width="16" height="16">
+            <use
+              href="./images/symbol-defs.svg#icon-close-black-18dp-2-1-1"
+            ></use>
+          </svg>
+        </button>
+        <p class="modal-title text-roboto">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Name</span>
+            <span class="modal-field-icon">
+              <input type="text" name="user-name" class="modal-form-input" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-person-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Phone</span>
+            <span class="modal-field-icon">
+              <input type="tel" name="user-phone" class="modal-form-input" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Email</span>
+            <span class="modal-field-icon">
+              <input type="email" name="user-email" class="modal-form-input" />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/symbol-defs.svg#icon-email-black"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-field">
+            <span class="modal-form-text text-roboto">Comment</span>
+            <span class="modal-text-input">
+              <textarea
+                name="user-comment"
+                class="modal-com-input"
+                placeholder="Text input"
+              ></textarea>
+            </span>
+          </label>
+          <div class="check-box between">
+            <input
+              class="input-check visually-hidden"
+              type="checkbox"
+              id="check"
+              value="true"
+            />
+            <label
+              class="modal-field last-lbl text-roboto check-text"
+              for="check"
+              >I accept the terms and conditions of the
+              <span class="checkbox-span">
+                <a class="modal-field-link" href="">Privacy Policy</a>
+              </span>
+            </label>
+          </div>
+          <button type="submit" class="modal-form-btn text-roboto">Send</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
